@@ -1,0 +1,39 @@
+/* -------------- Containers------------*/
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+.pp {
+  margin: 0 auto;
+  text-align: center;
+}
+.blaze {
+  margin: 0 auto;
+  text-align: center;
+}
+.hf {
+  margin: 0 auto;
+  text-align: center;
+}
+/*-----------Containers-----------------*/
+
+/*----------FlexBox--------------------*/
+.social-barre {
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.fb {
+ width: 30%;
+}
+.tw {
+  width: 30%;
+}
+.ln {
+  width: 30%;
+}
+/*----------FlexBox--------------------*/
+
+
+/*----------Grid--------------------*/
