@@ -206,9 +206,9 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   .grid-main{
-    min-width: 480px;
+    min-width: 600px;
   }
   .grid-top {
     width: 100%
