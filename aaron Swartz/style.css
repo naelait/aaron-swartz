@@ -5,7 +5,7 @@ body {
   display: grid;
   grid-gap: 20px;
   grid-template-rows: auto 100px auto;
-  min-width: 996px;
+  min-width: 860px;
 }
 .grid-top {
   background-color: #ffffff;
@@ -204,4 +204,19 @@ a {
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .grid-main{
+    min-width: 480px;
+  }
+  .grid-top {
+    width: 100%
+  }
+  .grid-bot {
+    width: 100%
+  }
+  .socialbar {
+    width: 100%
+  }
 }
